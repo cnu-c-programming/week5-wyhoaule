@@ -3,7 +3,7 @@
 
 void echo() {
   char buf[5];
-  fgets(str, 5, stdin);
+  fgets(buf, 5, stdin);
   printf("%s\n", buf);
 }
 
